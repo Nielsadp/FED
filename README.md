@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.gucci.com/nl/en_gb/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Gucci Homepage  
+  <img src="readme-images/guccihome.png" width="375px" alt="Homepagine van Gucci, de eerste pagina die je krijgt zodra je de website bezoekt">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Gucci Productpagina  
+  <img src="readme-images/gucciproduct.png" width="375px" alt="Pagina met een overzicht van producten op de website van Gucci onder de mannenafdeling">
  
 </details>
 
@@ -56,7 +56,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Jim deed er 1 minuut en 18 seconden over om een jas aan zijn winkelmandje toe te voegen terwijl hij een ballon in de lucht hield met zijn hand. Vervolgens ging hij de test doen zonder ballon, en was het binnen 25 seconden gelukt. Met ballon duurde het dus 53 seconden langer.
+
+  Met de voiceover op de website van gucci, zitten er allemaal letters/woorden verstopt achter de afbeelding die hij 1 voor 1 voorleest.
+
+
+  Gucci website gaat heel slecht, hij leest wel de alt tekst van afbeeldingen op, maar soms doet hij het woord per woord of soms letter per letter. Bij mijn klasgenoot zijn screenreader leest ‘ie het wel goed op.
+
+  Op budweiser worden de links wel aangegeven, maar ze zeggen niet waar het naartoe gaat. De social buttons geven niet aan naar welk social media platform het gaat. Dit is erg verwarrend.
+
 
 </details>
 
@@ -68,7 +76,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/schets1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
