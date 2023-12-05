@@ -29,3 +29,241 @@
 
 /* jouw code */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,200;0,400;0,600;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat&family=Raleway:ital,wght@0,200;0,400;0,600;1,200&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* --------HEADER-------- */
+
+h1 {
+	font-family: 'Figtree', sans-serif;
+	font-weight: lighter;
+	margin: 0.5em;
+}
+
+header {
+	display: flex;
+	align-content: flex-start;
+	text-align: start;
+	flex-direction: row;
+}
+
+header li {
+	padding: 0.5em;
+	height: 1em;
+	width: auto;
+}
+
+header ul {
+	display: flex;
+	align-content: flex-end;
+	margin-left: auto;
+	list-style-type: none;
+}
+
+/* --------MAIN-------- */
+
+main ul {
+	margin: 0em 0em 1em 0em;
+	padding: 0.2em;
+	text-align: start;
+	white-space: nowrap;
+	overflow-x: auto;
+	background-color: black;
+	color: white;
+}
+
+main ul li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+
+main li p {
+	margin: 0.5em;
+	font-size: small;
+}
+
+h2 {
+	font-family: 'Figtree', sans-serif;
+	font-weight: lighter;
+}
+
+h4 {
+	font-size: 1em;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+
+h5 {
+	color: rgb(163, 163, 163);
+	font-size: small;
+}
+
+body {
+	align-content: center;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	color: white;
+	background: black;
+	padding: 2em;
+	margin: 0.5em;
+	font-size: 0.5em;
+	border-radius: 0.3em;
+
+}
+
+section {
+	position: relative;
+}
+
+section a {
+	position: absolute;
+	bottom: 2em;
+	left: 50%;
+	transform: translateX(-50%);
+	text-decoration: none;
+}
+
+section h2 {
+	display: block;
+	position: absolute;
+	color: rgb(255, 255, 255);
+	bottom: 2em;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+section:nth-of-type(2) h2 {
+	position: absolute;
+	bottom: 2em;
+	left: 30%;
+	transform: translateX(-20%);
+}
+
+
+main article p {
+	font-size: medium;
+	font-weight: lighter;
+	margin: 1em;
+}
+
+main article a {
+	background: none;
+	color: black;
+	font-size: small;
+	font-weight: bold;
+}
+
+section ul {
+	display: flex;
+}
+
+
+ul video {
+max-width: 80vw;
+}
+/* 
+ul:last-of-type {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul:last-of-type li {
+	width: 10%;
+} */
+
+section:nth-of-type(5) {
+	width: auto;
+	background-color: black;
+	color: white;
+	padding: 2em;
+	text-align: start;
+	margin-top: 1em;
+}
+
+hr {
+	margin-top: -0.5em;
+}
+
+section:nth-of-type(5) section:nth-of-type(2) p {
+	text-decoration: underline;
+	font-size: small;
+}
+
+section:nth-of-type(5) img {
+	margin-top: 1em;
+	width: 100%;
+}
+
+.shop {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: none;
+	background-color: rgb(196, 196, 196);
+}
+
+.shop article {
+	background-color: white;
+	padding: 0em 1em 1em 1em;
+}
+
+.shop article img {
+	width: 80%;
+	height: auto;
+	padding: 1em;
+
+}
+
+.shop article h2 {
+	font-size: smaller;
+	font-weight: 500;
+}
+
+.shop article p:nth-of-type(2) {
+	font-weight: bolder;
+	font-size: small;
+	text-decoration: underline;
+
+}
+
+.shop article p {
+	margin: 0.3em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	color: white;
+}
+
+form input[type="email"] {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    font-size: 14px;
+	background-color: black;
+	border: none;
+	color: white;
+}
+
+form hr {
+    width: 100%;
+    border: 1px solid white;
+}
+
+form input[type="email"]:focus {
+    border-color: black;
+    outline: none;
+    box-shadow: none;
+}
