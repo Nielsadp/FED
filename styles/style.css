@@ -6,8 +6,10 @@
 /* CSS REMEDY */
 /**************/
 
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -76,10 +78,21 @@ header {
 
 
 @keyframes fontChange {
-	25% {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-	50% {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
-	75% {font-family: Georgia, 'Times New Roman', Times, serif;}
-	100% {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+	25% {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+
+	50% {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	}
+
+	75% {
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+
+	100% {
+		font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
 }
 
 h1 a {
@@ -129,6 +142,7 @@ nav {
 	bottom: 0;
 	position: fixed;
 }
+
 nav button {
 	margin-left: 14.9em;
 	margin-top: 2em;
@@ -158,7 +172,7 @@ main ul:nth-of-type(1) {
 main ul:nth-of-type(1) li {
 	display: inline-block;
 	margin-right: 10px;
-  }
+}
 
 main ul:nth-of-type(1) li p {
 	margin: 0.5em;
@@ -188,6 +202,7 @@ body {
 	background-color: var(--color-background-1);
 }
 
+/* --------HIER BEGINNEN DE AFBEELDINGEN + LINKS-------- */
 section img {
 	width: 100%;
 }
@@ -226,6 +241,8 @@ section h2 {
 	right: 1em;
 }
 
+/* --------TUSSENSTUKJE 'SPIRIT OF GUCCI'-------- */
+
 main article p {
 	font-size: medium;
 	font-weight: lighter;
@@ -240,58 +257,34 @@ main article a {
 	font-weight: bold;
 }
 
+/* --------HORIZONTAL SCROLL MET VIDEOS EN IMAGES-------- */
+
 section:nth-of-type(5) {
 	display: flex;
 	overflow-x: auto;
 }
 
-section:nth-of-type(5) video, section:nth-of-type(5) img {
+section:nth-of-type(5) video,
+section:nth-of-type(5) img {
 	width: 80vw;
 	margin: 1em 0.1em 1em 0.1em;
 }
 
-footer section:nth-last-of-type(1) {
-	width: auto;
-	background-color: var(--color-background-2);
+section div h2 {
+	bottom: 6.3em;
 	color: var(--color-text-1);
-	padding: 2em;
-	text-align: start;
-	margin-top: 1em;
 }
 
-div p {
-	margin-left: 1em;
-	margin-right: 1em;
-	color: var(--color-text-2);
+section div img {
+	filter: brightness(80%);
 }
 
-hr {
-	margin-top: -0.5em;
+video {
+	width: 100%;
+	height: auto;
 }
 
-footer section:nth-last-of-type(1) section:nth-of-type(2) p {
-	text-decoration: underline;
-	font-size: small;
-}
-
-footer section:nth-last-of-type(1) section:nth-of-type(2) {
-	padding: 0em;
-}
-
-footer section:nth-last-of-type(1) img:nth-of-type(1) {
-	margin-top: 1em;
-	width: 75%;
-}
-
-footer section:nth-last-of-type(1) img:nth-of-type(2) {
-	width: 17%;
-	margin-left: 1em;
-	transition: transform 1s ease;
-}
-
-footer section:nth-last-of-type(1) img:nth-of-type(2):hover {
-	transform: rotateY(360deg);
-}
+/* --------SHOPPING PAGE-------- */
 
 .shop {
 	display: grid;
@@ -360,10 +353,61 @@ section button:hover {
 	background-color: var(--color-background-3);
 }
 
+
+/* --------FOOTER-------- */
+
+footer section:nth-last-of-type(1) {
+	width: auto;
+	background-color: var(--color-background-2);
+	color: var(--color-text-1);
+	padding: 2em;
+	text-align: start;
+	margin-top: 1em;
+}
+
+div p {
+	margin-left: 1em;
+	margin-right: 1em;
+	color: var(--color-text-2);
+}
+
+hr {
+	size: 1em;
+	width: 100%;
+	color: var(--color-border-1);
+	margin-top: -0.5em;
+}
+
+footer section:nth-last-of-type(1) section:nth-of-type(2) p {
+	text-decoration: underline;
+	font-size: small;
+}
+
+footer section:nth-last-of-type(1) section:nth-of-type(2) {
+	padding: 0em;
+}
+
+footer section:nth-last-of-type(1) img:nth-of-type(1) {
+	margin-top: 1em;
+	width: 75%;
+}
+
+footer section:nth-last-of-type(1) img:nth-of-type(2) {
+	width: 17%;
+	margin-left: 1em;
+	transition: transform 1s ease;
+}
+
+footer section:nth-last-of-type(1) img:nth-of-type(2):hover {
+	transform: rotateY(360deg);
+}
+
+/* --------EMAIL FORM IN FOOTER-------- */
+
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
 	color: var(--color-text-1);
 }
 
@@ -372,42 +416,22 @@ form h4 {
 }
 
 form input[type="email"] {
-    width: 100%;
-    padding: 0.5em;
-    margin: 0.5em 0;
-    font-size: 14px;
+	width: 100%;
+	padding: 0.5em;
+	margin: 0.5em 0;
+	font-size: 14px;
 	background-color: var(--color-background-2);
 	border: none;
 	color: var(--color-text-1);
 }
 
 form hr {
-    width: 100%;
-    border: 1px solid var(--color-border-1);
+	width: 100%;
+	border: 1px solid var(--color-border-1);
 }
 
 form input[type="email"]:focus {
-    border-color: var(--color-border-2);
-    outline: none;
-    box-shadow: none;
-}
-
-section div h2 {
-	bottom: 6.3em;
-	color: var(--color-text-1);
-}
-
-section div img {
-	filter: brightness(80%);
-}
-
-hr {
-	size: 1em;
-	width: 100%;
-	color: var(--color-border-1);
-}
-
-video {
-	width: 100%;
-	height: auto;
+	border-color: var(--color-border-2);
+	outline: none;
+	box-shadow: none;
 }
